@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --surface: #f8f9ff;
+    --surface-low: #eff4ff;
+    --surface-container: #e5eeff;
+    --surface-high: #dce9ff;
+    --surface-highest: #d3e4fe;
+    --on-surface: #0b1c30;
+    --on-surface-variant: #3f4850;
+    --primary: #006194;
+    --primary-container: #007bb9;
+    --primary-fixed: #cce5ff;
+    --primary-fixed-dim: #93ccff;
+    --tertiary: #825100;
+    --tertiary-fixed: #ffddb8;
+    --error: #ba1a1a;
+    --error-container: #ffdad6;
+    --outline-variant: #bfc7d2;
+
+    font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+}
+
+.font-mono-num {
+  font-family: "IBM Plex Mono", "Plus Jakarta Sans", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

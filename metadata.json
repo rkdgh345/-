@@ -1,0 +1,8 @@
+{
+  "name": "전력용어노트 학습 센터",
+  "description": "전력·에너지 입문자와 실무 교육생을 위한 전력 용어 사전, 문맥 검출 및 맞춤 퀴즈 학습 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
